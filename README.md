@@ -1,2 +1,42 @@
-# ldrgaragesensor
-LDR Garage Sensor Application for Assignment 3 of DSP 4
+# Assignment 3 - IIR Filters
+## Kerolos Ikladeos (2432195i) and Anirudh Garikapati (2480291g)
+
+
+## Application
+- Indoor Garage Parking Sensor using LDR wih 3 LEDs reacting to different values on how far or close the light source is.
+
+## YouTube Video Link
+> https://youtu.be/2AZ1obUZoQc
+
+## Features
+- IIR filtering using Butterworth and IIR filter module
+- DAQ using Arduino Uno and PyFirmata2 on Python
+- Detecting sampling rate **real time**
+
+
+## Files
+
+> **main.py** 
+>>
+>code containing filtering and realtime callback from Arduino
+
+>**report.pdf** 
+>>
+>report describing the application and all the 
+
+>**rearlights.ino**
+>>
+>sketch made on Arduino IDE to turn on the LED lights for rear car lights
+used for the demo.
+
+
+>**qt_graphs.py**
+>>
+>QT plots with live FFT transformation that were used to verify the FFT results of the main code.
+
+
+## Credits
+
+ - [PyFirmata2](https://github.com/berndporr/pyFirmata2/tree/master/examples) for event driven real time callbacks 
+
+ - [IIR Filter Module](https://github.com/berndporr/py-iir-filter) for IIR filtering using second order structures (sos)
