@@ -14,25 +14,27 @@
 - Detecting sampling rate **real time**
 
 
-## Files
+## Contents
 
-> **main.py** 
->>
->code containing filtering and realtime callback from Arduino
+ <a name="desc"></a>
+## 1. main.py
 
->**report.pdf** 
->>
->report describing the application and all the 
+Code containing filtering and realtime callback from Arduino and FFT analysis of the filtered and unfiltered signal
 
->**rearlights.ino**
->>
->sketch made on Arduino IDE to turn on the LED lights for rear car lights
-used for the demo.
+<a name="usage"></a>
+## 2. report.pdf
 
+report describing everything for this project
 
->**qt_graphs.py**
->>
->QT plots with live FFT transformation that were used to verify the FFT results of the main code.
+<a name="usage"></a>
+## 3. rearlights.ino
+
+Arduino sketch to turn on the LED lights for rear car lights used for the video demo
+
+<a name="usage"></a>
+## 4. qt_graphs.py
+
+QT plots with live FFT transformation that were used to verify the FFT results of the main code.
 
 
 ## Credits
@@ -40,3 +42,4 @@ used for the demo.
  - [PyFirmata2](https://github.com/berndporr/pyFirmata2/tree/master/examples) for event driven real time callbacks 
 
  - [IIR Filter Module](https://github.com/berndporr/py-iir-filter) for IIR filtering using second order structures (sos)
+
